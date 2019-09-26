@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
@@ -110,7 +110,7 @@ footer {
     overflow: hidden;
     background-color:#666666;
     height: 50px;
-    width: 100%;;
+    width: 100%;
     text-align: center;
     padding-top: 15px;
     border-top: 4px solid #4aaaa5;
