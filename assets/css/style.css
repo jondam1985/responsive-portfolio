@@ -86,7 +86,6 @@ li:nth-child(2)::after {
     margin: 50px auto;
     background-color: #ffffff;
     padding: 30px 30px;
-    box-sizing: border-box;
     color: #777777;
     border: 1px solid #dddddd;
 }
@@ -166,7 +165,7 @@ textarea[type=textarea] {
 /* portfolio page styles */
 
 .main-portfolio {
-    height: 850px;
+    height: 120vh;
     margin-bottom: 50px;
 }
 
@@ -239,6 +238,7 @@ textarea[type=textarea] {
 
     .main {
         margin-left: 5%;
+        min-width: 600px;
     }
 }
 
@@ -255,7 +255,9 @@ textarea[type=textarea] {
     }
 
     .main {
-        margin-left: 5%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Contact elements */
@@ -265,6 +267,13 @@ textarea[type=textarea] {
         width: 80px;
         font-size: 18px;
     }
+
+       /* Portfolio elements */
+
+       .app-grid {
+           margin-left: auto;
+           margin-right: auto;
+       }
 }
 
 @media screen and (max-width: 640px) {
@@ -303,6 +312,7 @@ textarea[type=textarea] {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
+        min-width: 300px;
     }
 
     /* About Me elements */
@@ -320,5 +330,13 @@ textarea[type=textarea] {
         height: 30px;
         width: 70px;
         font-size: 16px;
+    }
+
+    /* Portfolio elements */
+
+    .app-grid {
+        display: block;
+        width: 90%;
+        min-width: 250px;
     }
 }
