@@ -101,6 +101,7 @@ hr {
 
 .pusher {
     min-height: calc(100vh - 50px);
+    overflow: scroll;
 }
 
 footer {
@@ -165,7 +166,7 @@ textarea[type=textarea] {
 /* portfolio page styles */
 
 .main-portfolio {
-    height: 120vh;
+    height: 900px;
     margin-bottom: 50px;
 }
 
@@ -270,6 +271,10 @@ textarea[type=textarea] {
 
        /* Portfolio elements */
 
+       .main-portfolio {
+           height: 900px;
+       }
+
        .app-grid {
            margin-left: auto;
            margin-right: auto;
@@ -334,9 +339,19 @@ textarea[type=textarea] {
 
     /* Portfolio elements */
 
+    .main-portfolio {
+        height: 1300px;
+    }
+
     .app-grid {
         display: block;
         width: 90%;
         min-width: 250px;
+    }
+
+    .app-thumbnail {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
