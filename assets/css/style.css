@@ -149,6 +149,10 @@ input[type=text], input[type=email] {
     padding-left: 5px;
 }
 
+textarea[type=textarea] {
+    padding: 5px;
+}
+
 #submit {
     color: #ffffff;
     background-color: #4aaaa5;
@@ -222,6 +226,9 @@ input[type=text], input[type=email] {
 }
 
 @media screen and (max-width: 980px) {
+
+    /* Shared elements */
+
     .logo {
         left: 5%;
     }
@@ -236,6 +243,9 @@ input[type=text], input[type=email] {
 }
 
 @media screen and (max-width: 768px) {
+
+    /* Shared elements */
+
     .logo {
         left: 5%;
     }
@@ -247,9 +257,20 @@ input[type=text], input[type=email] {
     .main {
         margin-left: 5%;
     }
+
+    /* Contact elements */
+
+    #submit {
+        height: 40px;
+        width: 80px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 640px) {
+
+    /* Shared elements */
+
     header {
         height: 125px;
     }
@@ -284,10 +305,20 @@ input[type=text], input[type=email] {
         width: 90%;
     }
 
+    /* About Me elements */
+
     #me {
         display: block;
         float: none;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* Contact elements */
+
+    #submit {
+        height: 30px;
+        width: 70px;
+        font-size: 16px;
     }
 }
